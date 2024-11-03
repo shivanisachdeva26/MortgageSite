@@ -1,4 +1,5 @@
 "use client";
+import Image from 'next/image';
 import { useState } from 'react';
 
 export default function ImageSwitcher() {
@@ -11,7 +12,7 @@ export default function ImageSwitcher() {
   return (
     <div className="image-switcher-container">
       {/* Display the image */}
-      <img src={imageUrl} alt="Switchable" className="image-switcher-image" />
+      <Image src={imageUrl} alt="Switchable" className="image-switcher-image" width={1200} height={800}/>
 
       {/* Buttons to switch images */}
       <div className="image-switcher-button-container ">

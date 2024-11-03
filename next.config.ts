@@ -1,11 +1,3 @@
-// import type { NextConfig } from "next";
-
-// const nextConfig: NextConfig = {
-//   /* config options here */
-// };
-
-// export default nextConfig;
-
 
 
 
@@ -15,7 +7,7 @@ const nextConfig: NextConfig = {
   reactStrictMode: true, // Enables React Strict Mode to highlight potential issues
   swcMinify: true,       // Enables SWC-based minification for faster builds
   images: {
-    domains: ["example.com"], // Add any domains you want to allow for images
+    domains: ["media.better.com"], // Add any domains you want to allow for images
   },
   // Enable TypeScript strict mode if not already
   typescript: {

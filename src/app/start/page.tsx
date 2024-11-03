@@ -2,6 +2,7 @@
 import React from 'react';
 import Link from 'next/link';
 import { FaPhoneAlt } from 'react-icons/fa';
+import Image from 'next/image';
 
 const StartPage = () => {
   return (
@@ -15,10 +16,11 @@ const StartPage = () => {
       </div>
       <div className='w-full '>
         <div className='w-full h-1 bg-slate-300 top-8 justify-center relative'> </div>
-        <img
+        <Image
           src="https://media.better.com/components/preapproval/industry-parity-v2/betty1.jpg" 
           alt="Betsy"
           className="w-16 h-16 rounded-full mx-auto top-0 justify-center mb-10 z-20 relative"
+          width={1200} height={800}
         />
 
         </div>

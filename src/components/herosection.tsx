@@ -1,5 +1,6 @@
 import React from 'react'
 import ImageSwitcher from './stories';
+import Image from 'next/image';
 const HeroSection = () => {
   return (
     <>
@@ -9,7 +10,7 @@ const HeroSection = () => {
       <div className='p-4 w-full text-center font-lightbold text-8xl text-green-500 top-14'>
         <h1 className=' z-2 absolute mx-72' >Mortgages made simple</h1>
       
-        <img src="https://media.better.com/better-com/homepage/hero-variant-c.webp" className=' z-1 phoneimg'/>
+        <Image src="https://media.better.com/better-com/homepage/hero-variant-c.webp" alt='' className=' z-1 phoneimg' width={500} height={100} />
         </div>
     </div>
     <div className='flex mb-14'>

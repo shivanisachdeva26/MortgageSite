@@ -1,5 +1,6 @@
 // aboutus/page.tsx
 
+import Image from 'next/image';
 import React from 'react';
 
 const AboutUsPage = () => {
@@ -25,7 +26,7 @@ const AboutUsPage = () => {
                 </div>
                 {/* Placeholder for video */}
                 <div className="video-placeholder w-1/2">
-                    <img src="https://media.better.com/video/vishal-mission.jpg" alt="CEO Video" className='w-full h-full p-10'/>
+                    <Image src="https://media.better.com/video/vishal-mission.jpg" alt="CEO Video" className='w-full h-full p-10' width={1200} height={800}/>
                 </div>
             </section>
 
